@@ -1,0 +1,79 @@
+body, pre, code {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: #000 !important;
+    color: #0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+.terminal {
+    background-color: #000 !important;
+    border: 2px solid #0f0;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.terminal-header {
+    background-color: #000 !important;
+    text-align: right;
+}
+
+.button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.close-button {
+    background-color: red;
+}
+
+.minimize-button {
+    background-color: green;
+}
+
+.expand-button {
+    background-color: yellow;
+}
+
+.command {
+    color: #0f0;
+}
+
+.toggle-button {
+    color: #07f;
+    cursor: pointer;
+}
+
+.toggle-section {
+    display: none;
+    background-color: #000 !important;
+    color: #0f0;
+    padding: 20px;
+    border: 1px solid #0f0;
+    border-radius: 5px;
+}
+
+a {
+    color: #0f0;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .terminal {
+        font-size: 0.8rem;
+    }
+
+    .command {
+        font-size: 0.8rem;
+    }
+}
+
