@@ -2,26 +2,145 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="noindex, nofollow">
-    <title>Under Construction</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20% 0;
-        }
-        h1 {
-            font-size: 36px;
-        }
-        p {
-            font-size: 18px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Maciej Wiśniewski</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Website Under Construction</h1>
-    <p>We're working on something awesome. Please check back later.</p>
+    <section class="terminal">
+        <div class="terminal-header">
+            <span class="minimize-button button toggle-button" data-target="about"></span>
+            <span class="expand-button button toggle-button" data-target="cv"></span>
+            <span class="close-button button toggle-button"</span>
+        </div>
+        <div class="terminal-body">
+            <pre>
+                <code>
+$ <span class="command">whoami</span>
+Maciej Wiśniewski
+
+$ <span class="command">cat title.txt</span>
+IT Security Engineer
+
+$ <span class="toggle-button" data-target="contact">cat contact.txt</span>
+
+$ <span class="toggle-button" data-target="about">cat about.txt</span>
+
+$ <span class="toggle-button" data-target="certificates">ls certificates/</span>
+
+$ <span class="toggle-button" data-target="courses">ls courses/</span>
+
+$ <span class="toggle-button" data-target="social">ls social/</span>
+
+$ <span class="exit-button">exit</span>
+                </code>
+            </pre>
+        </div>
+    </section>
+    <section class="toggle-section" id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:maciejwisniewski.it&#64;gmail&#46;com">maciejwisniewski.it&#64;gmail&#46;com</a></p>
+        <h3>PGP Public Key:</h3>
+        <pre>
+            <samp>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+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
+asNl/2dPZBp2WbfvRuFeFkkA
+=4uNg
+-----END PGP PUBLIC KEY BLOCK-----
+            </samp>
+        </pre>
+    </section>
+    <section class="toggle-section" id="about">
+        <h2>About Me</h2>
+        <p>
+            Programming since 2006<br>
+            Python software developer since 2012<br>
+            AWS experience since 2018<br>
+            Security at heart since forever...<br>
+        </p>
+    </section>
+    <section class="toggle-section" id="certificates">
+        <h2>Certificates</h2>
+        <p>List of certifications:</p>
+        <pre>
+            <code>
+- 20.09.2023 - Certified Ethical Hacker @ EC-Council
+- 03.09.2020 - Certified IT Security Specialist @ akademiabezpieczenstwa.pl
+            </code>
+        </pre>
+    </section>
+    <section class="toggle-section" id="courses">
+        <h2>Courses</h2>
+        <p>List of courses:</p>
+        <pre>
+            <code>
+- 03.2021 - Web applications attack and defense @ niebezpiecznik.pl
+- 06.2019 - AWS Developer - associate path @ Pluralsight
+- 08.2013 - Cryptography I @ Stanford University through Coursera Inc.
+            </code>
+        </pre>
+    </section>
+    <section class="toggle-section" id="social">
+        <h2>Social Media</h2>
+        <p>- <a href="https://www.linkedin.com/in/maciejwisniewskiit/" target="_blank">LinkedIn</a></p>
+        <p>- <a href="https://tryhackme.com/p/mrcogito91" target="_blank">TryHackMe</a></p>
+    </section>
+    <footer>
+        <p>Website powered by a pinch of ChatGPT magic</p>
+        <p>&copy; <span id="current-year"></span> Maciej Wiśniewski</p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
 
