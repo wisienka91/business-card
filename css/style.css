@@ -61,7 +61,16 @@ body {
     padding: 20px;
     border: 1px solid #0f0;
     border-radius: 5px;
+}
+
+section {
     overflow: auto;
+}
+
+code {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap !important;
 }
 
 a {
